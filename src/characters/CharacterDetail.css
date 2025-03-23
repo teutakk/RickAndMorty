@@ -98,6 +98,7 @@ h1{
    border: none;
    padding: 3px 15px;
    border-radius: 10px;
+   cursor: pointer;
 }
 
 .page-num {

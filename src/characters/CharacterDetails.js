@@ -77,7 +77,7 @@ const CharacterDetails = () => {
   return (
     <div className='characters-container'>
 
-        <button className='button-infinit' onClick={stopingInfinit}>Stop Infinit Scrolling</button>
+        <button className='button-infinit' onClick={stopingInfinit}>{stopInfinit ? "Show Infinit Scrolling" : "Stop Infinit Scrolling" }</button>
         <h1>Rick and Morty</h1> 
         <div className='editing-data'>
 
