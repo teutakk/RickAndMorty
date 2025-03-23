@@ -1,0 +1,106 @@
+.characters-container {
+    position: relative;
+    background-color: #92AD94 ;
+    background-image: url("./../assets/rickndmorty.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(213, 207, 207, 0.803); /* Adding color overlay */
+    background-blend-mode: overlay; /* Blends the background color with the image */
+    padding: 4px;
+}
+h1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #00b0c8;
+}
+.button-infinit{
+    position: absolute;
+    padding: 10px;
+    background-color: #00b0c8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.editing-data{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #79645972;
+    flex-wrap: wrap;
+}
+.editing-data label{
+    font-weight: 700;
+}
+.editing-data input{
+    padding: 4px;
+    border-radius: max(12px, .9vw);
+    font-size: max(1vw, 15px);
+    background-color: #f0f0f0;
+    border: none;
+}
+.editing-data select{
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 15px;
+    padding: 4px;
+}
+.card-container { 
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+.loading{
+    font-size: 50px;
+}
+.inner-card {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    width: max(20vw, 280px);
+    background-color: #f5f4c8;
+    color: #292929;
+    border-radius: max(20px, 1.2vw);
+    border: 2px solid rgb(119, 97, 17);
+}
+.card-details{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+.status-icon svg{
+    width: max(100px);
+    height: max(100px);
+}
+.page-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.page-buttons button {
+   background-color: #84C318;
+   border: none;
+   padding: 3px 15px;
+   border-radius: 10px;
+}
+
+.page-num {
+    font-size: max(18px, 1.2vw);
+    text-decoration: underline;
+}

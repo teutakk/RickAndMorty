@@ -1,0 +1,7 @@
+{
+    "char-name": "Emri: {name}",
+    "char-status": "Statusi: {status}",
+    "char-species": "Speciet: {species}",
+    "char-gender": "Gjinia: {gender}",
+    "char-origin": "Origjina: {origin}"
+}

@@ -1,0 +1,7 @@
+{
+    "char-name": "Name: {name}",
+    "char-status": "Status: {status}",
+    "char-species": "Species: {species}",
+    "char-gender": "Gender: {gender}",
+    "char-origin": "Origin: {origin}"
+}
